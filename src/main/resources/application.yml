@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: backend_estagio_spring
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  jmx:
+    enabled: false
+  datasource:
+    url: jdbc:postgresql://localhost:5432/backend_estagio
+    username: postgres
+    password: 218110
